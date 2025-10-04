@@ -20,6 +20,7 @@ The goal is to build a reliable model that distinguishes between **normal transa
 Install the required Python packages:
 
 
+```bash
 pip install numpy pandas matplotlib seaborn scikit-learn xgboost
 Tip: Use a virtual environment to manage dependencies.
 
