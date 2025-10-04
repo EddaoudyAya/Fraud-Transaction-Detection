@@ -19,21 +19,17 @@ The goal is to build a reliable model that distinguishes between **normal transa
 ## ⚙️ Installation & Requirements
 Install the required Python packages:
 
-```bash
+
 pip install numpy pandas matplotlib seaborn scikit-learn xgboost
 Tip: Use a virtual environment to manage dependencies.
 
-##🚀 Usage
+##  Usage
 Clone this repository:
 
-bash
-Copier le code
 git clone https://github.com/EddaoudyAya/Credit-Card-Fraud-Detection.git
 Navigate to the folder and open the Jupyter Notebook:
-
-bash
-Copier le code
 jupyter notebook "credictcarddetection (1).ipynb"
+
 Run the notebook step by step:
 
 Data loading & preprocessing
@@ -46,7 +42,7 @@ Model training & evaluation
 
 Results & conclusion
 
-🗂️ Project Structure
+## Project Structure
 bash
 Copier le code
 Credit-Card-Fraud-Detection/
@@ -59,7 +55,7 @@ Credit-Card-Fraud-Detection/
 ├── visuals/                # Plots and graphs
 ├── README.md
 └── requirements.txt
-🧠 Features & Methodology
+##  Features & Methodology
 Data Preprocessing: cleaning, scaling, and balancing.
 
 Exploratory Data Analysis (EDA): visualization of transaction distributions.
@@ -84,35 +80,19 @@ Precision, Recall, F1-score
 
 ROC-AUC
 
-📊 Results
+##  Results
 The notebook provides a comparison of models and highlights the most effective approach for detecting fraudulent transactions while minimizing false negatives.
 
 Example Result Visual
 
-🔮 Future Work
-Explore deep learning techniques such as LSTMs and Autoencoders.
-
-Deploy the model into a real-time fraud detection system.
-
-Experiment with advanced resampling strategies like SMOTE.
-
-Integrate the model with web applications or dashboards for real-time monitoring.
-
-💡 Key Takeaways
+##  Key Takeaways
 Fraud detection requires careful handling of imbalanced datasets.
 
 Ensemble methods like Random Forest and XGBoost often outperform single models.
 
 Evaluation should focus on precision, recall, and F1-score, not just accuracy.
 
-📚 References
-Credit Card Fraud Detection Dataset - Kaggle
-
-Géron, Aurélien. Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow
-
-Chollet, François. Deep Learning with Python
-
-👩‍💻 Author
+##  Author
 Eddaoudy Aya
 Engineering Student in Data Science, Big Data & AI
 
